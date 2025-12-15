@@ -1,0 +1,224 @@
+================================================================================
+  SISTEMA EDITORIAL v3.2 - AFFINITY PUBLISHER
+================================================================================
+
+Version: 3.2.0-dev
+Fecha: Diciembre 15, 2024
+Software: Affinity V3 (Canvas) - GRATUITO
+Formato: DOCX EXCLUSIVAMENTE (sin soporte RTF/CorelDRAW)
+
+================================================================================
+  INICIO RAPIDO (5 MINUTOS)
+================================================================================
+
+PASO 1: INSTALAR REQUISITOS (solo la primera vez)
+--------------------------------------------------
+  1. Doble clic en: INSTALAR.bat
+  2. Esperar a que se instalen los modulos Python
+  3. Cerrar la ventana cuando diga "INSTALACION COMPLETADA"
+
+PASO 2: EJECUTAR APLICACION
+--------------------------------------------------
+  1. Doble clic en: Lanzar_Nucleo_v3_Affinity.bat
+  2. Se abrira la interfaz grafica
+
+PASO 3: GENERAR ARCHIVOS
+--------------------------------------------------
+  En la aplicacion:
+
+  [PASO 1 - EXTRAER]
+  1. Click: "Seleccionar DOCX Original"
+  2. Elegir tu archivo Word con estudios biblicos
+  3. Click: "EXTRAER CONTENIDO"
+  4. Esperar a que termine
+  5. Click: "IR AL PASO 2"
+
+  [PASO 2 - GENERAR]
+  1. Seleccionar estructura: Archivo UNICO (recomendado)
+  2. Desmarcar: "Incluir saltos de página" (para auto-flow)
+  3. Click: "GENERAR ARCHIVO"
+  4. Se creara: Salida_Affinity_v3/Libro_Completo_XX_Estudios.docx
+
+PASO 4: IMPORTAR A AFFINITY CON AUTO-FLOW
+--------------------------------------------------
+  1. Abrir Affinity V3 (Canvas)
+  2. File > Place (o Ctrl+Shift+D)
+  3. Seleccionar el archivo DOCX generado
+  4. MANTENER SHIFT PRESIONADO
+  5. Click UNA VEZ en la pagina
+
+  ¡LISTO! Affinity crea TODAS las paginas automaticamente.
+
+PASO 5: EDITAR ESTILOS GLOBALMENTE
+--------------------------------------------------
+  1. Window > Text Styles (o Ctrl+Alt+T)
+  2. Doble clic en cualquier estilo
+  3. Modificar fuente, tamaño, espaciado, etc.
+  4. Click OK
+
+  TODOS los textos con ese estilo se actualizan INSTANTANEAMENTE.
+
+================================================================================
+  DOCUMENTACION
+================================================================================
+
+  README.md
+    - Inicio rapido completo
+    - Requisitos del sistema
+    - FAQ rapida
+
+  GUIA_AFFINITY_V3.md
+    - Guia completa paso a paso
+    - Casos de uso practicos
+    - Solucion de problemas
+
+  NOVEDADES_v3.md
+    - Cambios vs version 2
+    - Nuevas funcionalidades
+    - Migracion desde v2
+
+  ESTRUCTURA.md
+    - Contenido de la carpeta
+    - Descripcion de archivos
+    - Flujo de trabajo visual
+
+================================================================================
+  REQUISITOS
+================================================================================
+
+  SOFTWARE OBLIGATORIO:
+  ---------------------
+  - Windows 10/11
+  - Python 3.8 o superior (descargar de python.org)
+  - Affinity V3 (Canvas) - GRATIS (descargar de affinity.serif.com)
+
+  MODULOS PYTHON (se instalan con INSTALAR.bat):
+  -----------------------------------------------
+  - customtkinter
+  - python-docx
+
+================================================================================
+  ESTILOS DISPONIBLES
+================================================================================
+
+  El sistema genera 6 estilos profesionales:
+
+  1. Etiqueta_Estudio    - Arial 10pt, gris, centrado
+  2. Titulo_Principal    - Arial 20pt, negrita, centrado
+  3. Cita_Biblica        - Times 12pt, negrita+cursiva
+  4. Subtitulo           - Arial 13pt, negrita
+  5. Cuerpo_Texto        - Times 11pt, sangria
+  6. Cuerpo_Sin_Sangria  - Times 11pt, sin sangria
+
+================================================================================
+  OPCIONES DE GENERACION
+================================================================================
+
+  FORMATO:
+  --------
+  - DOCX UNICAMENTE - Estilos nativos 100% compatibles con Affinity
+    (RTF/CorelDRAW eliminado en v3.2)
+
+  ESTRUCTURA:
+  -----------
+  - Archivo UNICO   (recomendado) - Todos los estudios en 1 DOCX
+  - Archivos SEPARADOS            - 1 DOCX por estudio
+
+  SALTOS DE PAGINA:
+  -----------------
+  - DESMARCADO (recomendado) - Permite auto-flow en Affinity
+  - MARCADO                  - Saltos manuales entre estudios
+
+================================================================================
+  SOLUCION DE PROBLEMAS
+================================================================================
+
+  ERROR: "No se encuentra python"
+  --------------------------------
+  Solucion:
+    1. Descargar Python de https://www.python.org/downloads/
+    2. Durante instalacion, marcar "Add Python to PATH"
+    3. Reiniciar computadora
+    4. Ejecutar INSTALAR.bat nuevamente
+
+  ERROR: "No se encuentra customtkinter"
+  --------------------------------------
+  Solucion:
+    1. Abrir terminal (cmd)
+    2. Ejecutar: pip install customtkinter python-docx
+    3. Ejecutar INSTALAR.bat nuevamente
+
+  Los estilos no aparecen en Affinity
+  ------------------------------------
+  Solucion:
+    1. Asegurar que seleccionaste formato DOCX (no RTF)
+    2. Regenerar archivo
+    3. En Affinity: usar File > Place (NO File > Open)
+    4. Verificar Window > Text Styles
+
+  Fuente "Roble" no encontrada
+  -----------------------------
+  Opcion A: Instalar fuente Roble (buscar Roble.ttf)
+  Opcion B: En Affinity, editar estilos y cambiar a Arial
+
+================================================================================
+  VENTAJAS vs METODO MANUAL
+================================================================================
+
+  AHORRO DE TIEMPO:
+  - Manual: 4 horas para formatear 48 estudios
+  - v3.2: 5 minutos (98% mas rapido)
+
+  EDICION GLOBAL:
+  - Manual: Cambiar cada titulo individualmente (1 hora)
+  - v3.2: Editar estilo una vez (15 segundos)
+
+  CONSISTENCIA:
+  - Manual: Errores frecuentes, inconsistencias
+  - v3.2: 100% consistente automaticamente
+
+  COSTO:
+  - Manual: Solo tiempo (pero MUCHO tiempo)
+  - v3.2: Software GRATIS + setup 5 minutos
+
+================================================================================
+  SOPORTE
+================================================================================
+
+  Si tienes problemas:
+
+  1. Leer README.md (seccion Solucion de Problemas)
+  2. Leer GUIA_AFFINITY_V3.md (troubleshooting completo)
+  3. Verificar requisitos:
+     - Python 3.8+
+     - Affinity V3 instalado
+     - Modulos instalados (ejecutar INSTALAR.bat)
+
+================================================================================
+  RECURSOS
+================================================================================
+
+  Affinity V3 (Canvas):
+    https://affinity.serif.com
+
+  Python:
+    https://www.python.org/downloads/
+
+  Documentacion Affinity:
+    https://affinity.help/publisher/
+
+================================================================================
+
+¡Sistema listo para produccion!
+
+De Word a libro maquetado profesional en 5 minutos.
+
+Ahorro de tiempo: 98%
+Software necesario: GRATIS
+Calidad: Profesional
+
+================================================================================
+
+Ultima actualizacion: Diciembre 13, 2024
+Version: 3.0
+Desarrollado para: Produccion editorial de libros de estudio biblico

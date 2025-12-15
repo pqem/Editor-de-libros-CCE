@@ -1,0 +1,8 @@
+# Requisitos Python - Sistema Editorial v3
+# Version: 3.0 (Diciembre 2024)
+
+# Interfaz gráfica moderna
+customtkinter>=5.2.0
+
+# Procesamiento de archivos Word (DOCX)
+python-docx>=1.0.0

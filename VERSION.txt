@@ -1,0 +1,91 @@
+================================================================================
+SISTEMA EDITORIAL v3.2 - VERSIÓN DE DESARROLLO
+================================================================================
+
+Versión: 3.2.0-dev
+Fecha: Diciembre 15, 2024
+Estado: DESARROLLO - ACTIVO
+Propósito: Versión exclusiva Affinity Publisher
+
+================================================================================
+BASE
+================================================================================
+
+Esta carpeta es una copia de Sistema_Editorial_v3.1_STABLE
+
+Versión base: 3.1.0
+Todas las funcionalidades de v3.1 están presentes
+
+================================================================================
+NUEVAS FUNCIONALIDADES EN DESARROLLO
+================================================================================
+
+Planeadas para v3.2:
+[ ] Exportación directa a PDF desde la aplicación
+[ ] Previsualización de estilos antes de generar
+[ ] Plantillas predefinidas (carta, A4, A5, etc.)
+[ ] Soporte para imágenes en estudios
+[ ] Editor de estilos visual integrado
+[ ] Mejoras en la interfaz de usuario
+
+Ideas adicionales:
+[ ] Generación de IDML nativo (InDesign)
+[ ] Generación de EPUB para ebooks
+[ ] Soporte para múltiples idiomas
+[ ] Temas de color para la interfaz
+
+================================================================================
+INSTRUCCIONES PARA DESARROLLO
+================================================================================
+
+✅ HACER:
+- Modificar libremente los archivos en esta carpeta
+- Probar nuevas funcionalidades
+- Experimentar con mejoras
+- Documentar cambios en CHANGELOG.md
+
+❌ NO HACER:
+- NO modificar Sistema_Editorial_v3.1_STABLE
+- NO usar esta versión en producción hasta que esté probada
+- NO eliminar funcionalidades existentes sin respaldo
+
+================================================================================
+CUANDO ESTÉ LISTA LA v3.2
+================================================================================
+
+1. Probar completamente todas las funcionalidades
+2. Actualizar CHANGELOG.md con todos los cambios
+3. Actualizar README.md con nuevas instrucciones
+4. Crear nueva carpeta: Sistema_Editorial_v3.2_STABLE
+5. Copiar archivos finales a la carpeta STABLE
+6. Crear Sistema_Editorial_v3.3_DEV para continuar
+
+================================================================================
+FLUJO DE VERSIONES
+================================================================================
+
+v3.1_STABLE  →  v3.2_DEV  →  v3.2_STABLE  →  v3.3_DEV  →  ...
+   ↑                ↑              ↑              ↑
+Producción      Desarrollo     Producción    Desarrollo
+
+================================================================================
+
+Para probar:
+  Doble clic en: Lanzar_Nucleo_v3_Affinity.bat
+
+Para documentación:
+  Abrir: LEEME_PRIMERO.txt
+
+================================================================================
+REGISTRO DE CAMBIOS (v3.2)
+================================================================================
+
+[Diciembre 13, 2024]
+- Creada carpeta de desarrollo v3.2
+- Copiada base desde v3.1 estable
+- Listo para nuevas implementaciones
+
+[Pendiente...]
+
+
+================================================================================
